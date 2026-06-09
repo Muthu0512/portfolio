@@ -5,8 +5,8 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 
 const About = () => {
   return (
-    <div id="about" className="min-h-screen w-full mt-48  ">
-      <h2 className="text-4xl  text-center my-5 bg-gray-800/50 py-1">
+    <div id="about" className="min-h-screen w-full mt-48 ">
+      <h2 className="text-4xl  text-center my-5 bg-gray-800/50 py-1 ">
         About Me
       </h2>
       <div className="container max-w-6xl min-h-screen mx-auto px-5 py-2 flex flex-col justify-start items-center ">

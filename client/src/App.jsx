@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div className="relative min-h-screen min-w-screen bg-black   text-white  overflow-hidden ">
+    <div className="relative min-h-screen min-w-screen bg-black   text-white  overflow-hidden  ">
     
       <div className="absolute h-full w-full top-0 left-0" />
       <header className="fixed top-0 left-0 w-full z-50 ">

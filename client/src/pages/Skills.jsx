@@ -24,7 +24,7 @@ import SkillCard from "../components/SkillCard";
 
 const Skills = () => {
   return (
-    <div id="skills" className="min-h-screen w-screen scroll-mt-16 ">
+    <div id="skills" className="min-h-screen w-full pb-10 ">
       <div className="flex flex-col gap-4  items-center justify-between w-full h-full  px-5 space-y-4">
         <section className="container max-w-7xl flex flex-col gap-4 justify-between items-center text-center " >
           <h3 className="my-4 text-4xl bg-linear-to-r from-red-700 via-blue-600 to-blue-600 bg-clip-text text-transparent">

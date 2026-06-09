@@ -18,8 +18,9 @@ const Footer = () => {
   return (
     <footer className="w-full bg-slate-900/60 border-t border-blue-900/60 backdrop-blur-md py-3 mt-12">
       <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="text-sm flex-1 sm:text-md text-gray-400 font-bold order-3 sm:order-1 text-center sm:text-left hover:underline hover:underline-offset-2 hover:brightness-200">
-          &copy; {currentYear}  Muthupandi. All rights reserved.
+        <div className=" flex-1   order-3 sm:order-1 text-center sm:text-left ">
+          <p className="w-fit text-sm sm:text-md text-gray-400 font-bold hover:underline hover:underline-offset-2 hover:brightness-200 px-2 py-1 rounded-md">&copy; {currentYear}  Muthupandi. All rights reserved.</p>
+          
         </div>
 
         <div className="flex items-center gap-6 order-1 sm:order-2">

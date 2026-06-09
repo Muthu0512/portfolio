@@ -60,7 +60,7 @@ const Navbar = ({ active, setActive }) => {
             />
           </div>
         ) : (
-          <div className="block sm:hidden ml-2 cursor-pointer hover:scale-130 transition-all duration-150">
+          <div className="block sm:hidden ml-2 cursor-pointer hover:scale-130 transition-all duration-100">
             <MenuIcon
               className="size-6 "
               onClick={() => setIsMobileviewOpen(() => !isMobileviewOpen)}
@@ -72,7 +72,7 @@ const Navbar = ({ active, setActive }) => {
             className="absolute -right-4 top-14 w-28 py-3  rounded-md flex flex-col sm:hidden items-center gap-2  text-sm justify-between  bg-gray-800/90 backdrop-blur-lg z-50 "
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: -10 }}
-            transition={{ delay: 0.2, duration: 1 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
           >
             {navLinks.map((item) => (
               <a
