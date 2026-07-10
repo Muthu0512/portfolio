@@ -23,7 +23,7 @@ const Hero = () => {
             <a href="#contact" className=" bg-linear-to-r from-blue-900/20 to-blue-600/80 rounded-md px-3 py-1 hover:bg-blue-500 hover:cursor-pointer transition-all duration-150 hover:ring-2 hover:ring-blue-400">
               Contact Me
             </a>
-            <a href="/Muthupandi S.pdf" download={"Muthupandi S.pdf"}
+            <a href="/Muthupandi_Resume.pdf" download={"Muthupandi S.pdf"}
               className="flex  gap-2  font-semibold rounded-md px-3 py-1  bg-linear-to-r from-blue-400/25  to-white/80 border border-blue-900 hover:cursor-pointer  text-black transition-all duration-150 group">
               Resume <Download className=" size-7 group-hover:translate-y-0.5 group-active:translate-y-1 transition-all duration-100" />
             </a>
